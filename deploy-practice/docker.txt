@@ -1,0 +1,6 @@
+docker build -t churn .: build docker container with tag <name> in pwd
+
+docker run -it --rm -p 9696:9696 churn: 
+-it: run docker image in interactive mode (cancel from terminal)
+-rm: remove img created after running
+-p: port forwarding to <port> of project <tag>
